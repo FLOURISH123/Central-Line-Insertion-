@@ -3,7 +3,7 @@ Tool Classification in Central Line Insertion was done using a Convolutional Neu
 
 
 
-Datasets that were used in the project are videos of medical experts performing central line insertion using the central line Tutor System, to have access to the datasets, contact The Perk Lab - Laboratory for Percutaneous Surgery.
+Datasets that were used in the project are videos of medical experts performing central line insertion using the central line Tutor System, to have access to aall the datasets, contact The Perk Lab - Laboratory for Percutaneous Surgery.
 
 
 DataCollection.py file contains the codes of data collection using 3D slicer. 
