@@ -13,9 +13,9 @@ from pathlib import Path
 import time
 import socket
 
-#
-# RunNeuralNet
-#
+
+# Run Neural Net Network
+
 
 class RunNeuralNet(ScriptedLoadableModule):
   """Uses ScriptedLoadableModule base class, available at:
@@ -39,9 +39,9 @@ This file was originally developed by Jean-Christophe Fillion-Robin, Kitware Inc
 
 """
 
-#
-# RunNeuralNetWidget
-#
+
+# Run Neural Net Widget
+
 
 class RunNeuralNetWidget(ScriptedLoadableModuleWidget):
 
@@ -284,9 +284,9 @@ class RunNeuralNetWidget(ScriptedLoadableModuleWidget):
 
   def onCreateModelClicked(self):
     self.logic.createNewModel(self.newModelName)
-#
-# RunNeuralNetLogic
-#
+
+# Run Neural Net Logic
+
 
 class RunNeuralNetLogic(ScriptedLoadableModuleLogic):
   def __init__(self,
@@ -483,9 +483,9 @@ class RunNeuralNetLogic(ScriptedLoadableModuleLogic):
     newModelFile.close()
 
 
-#
-# RunNeuralNetTest
-#
+
+# RunNeural Net Test
+
 
 class RunNeuralNetTest(ScriptedLoadableModuleTest):
 
