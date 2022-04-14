@@ -14,11 +14,17 @@ The input data which are the frames of image sequence are loaded into the Networ
 CNN.py file predicts tools from RGB images and returns a string.
 
 Train_CNN.py module Loads the data from the specified CSV file
-         Fold: The fold number given in the CSV file (should be an int)
-         Set: which set the images and labels make up (should be one of: "Train","Validation", or "Test")
+
+         Fold: The fold number given in the CSV file (should be an int),
+         
+         Set: which set the images and labels make up (should be one of: "Train","Validation", or "Test"),
+         
          Returns:
-         images: The list of images loaded from the files or girderIDs
-         imageLabels: a dictionary of the labels for each image, indexed by the label name
+         
+         images: The list of images loaded from the files or girderIDs,
+         
+         imageLabels: a dictionary of the labels for each image, indexed by the label name,
+         
          early stopping was used on network to estimate the performance.
          
  RunNeuralNet.py, module runs various neural networks in realtime in Slicer.
