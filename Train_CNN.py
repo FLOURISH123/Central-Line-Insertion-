@@ -268,6 +268,7 @@ class Early_Stopping:
         else:
             print('{} did not improve since test {} was {}'.format(self.metric_name, self.metric_name, self.best_metric))
             self.counter += 1
+            
 
 tm = Train_CNN()
 tm.train()
