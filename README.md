@@ -28,3 +28,13 @@ Train_CNN.py module Loads the data from the specified CSV file
          early stopping was used on network to estimate the performance.
          
  RunNeuralNet.py, module runs various neural networks in realtime in Slicer.
+ 
+ Implementation softwares:
+ 
+ 3D Slicer (http://download.slicer.org/)
+ 
+Deep-Learn-Live (https://github.com/SlicerIGT/aigt)
+
+Anaconda3.
+
+
