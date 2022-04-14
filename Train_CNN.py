@@ -194,7 +194,6 @@ class Train_CNN:
                 self.saveTrainingPlot(foldDir,history.history,metric)
 
 
-
 if __name__ == '__main__':
   parser = argparse.ArgumentParser()
   parser.add_argument(
@@ -240,7 +239,9 @@ if __name__ == '__main__':
       help='Metrics used to evaluate model.'
   )
 FLAGS, unparsed = parser.parse_known_args()
-# Early stopping
+
+
+# Early stopping utilization to avoid overfitting.
 class Early_Stopping:
     
     def __init__(self, sess, saver, epochs_to_wait, metric_name):
