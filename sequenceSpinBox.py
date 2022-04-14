@@ -15,7 +15,7 @@ class sequenceSpinBox(qt.QDoubleSpinBox):
     def textFromValue(self,value):
         text = "%.2f" % float(self.valueRange[int(value)])
         return(text)
-
+    
     def valueFromText(self,text):
         value = int(self.valueRange.index(text))
         return value
