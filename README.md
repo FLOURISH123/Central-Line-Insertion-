@@ -11,8 +11,6 @@ sequenceSpinBox.py file splits video data into sequence, a sequence is an arrang
 
 The input data which are the frames of image sequence are loaded into the Network.
 
-CNN.py file predicts tools from RGB images and returns a string.
-
 Train_CNN.py module Loads the data from the specified CSV file
 
          Fold: The fold number given in the CSV file (should be an int),
