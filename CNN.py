@@ -66,3 +66,5 @@ class CNN():
         with open(os.path.join(saveLocation,structureFileName),"w") as modelStructureFile:
             modelStructureFile.write(JSONmodel)
         trainedModel.save_weights(os.path.join(saveLocation,weightsFileName))
+     
+     
