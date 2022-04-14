@@ -483,7 +483,6 @@ class RunNeuralNetLogic(ScriptedLoadableModuleLogic):
     newModelFile.close()
 
 
-
 #
 # RunNeuralNetTest
 #
